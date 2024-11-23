@@ -42,7 +42,7 @@ describe('getAuthorList', () => {
 
         // Assert: Check if the result matches the expected sorted output
         const expectedAuthors = [
-            'Austen,Jane : 1775 - 1817',
+            'Austen, Jane : 1775 - 1817',
             'Ghosh, Amitav : 1835 - 1910',
             'Tagore, Rabindranath : 1812 - 1870'
         ];
